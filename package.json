@@ -1,17 +1,17 @@
 {
-  "name": "@sushiswap/sdk",
+  "name": "@jointswap/sdk",
   "license": "MIT",
-  "version": "5.0.0-canary.16",
+  "version": "1.0.0",
   "description": "🛠 An SDK for building applications on top of Sushiswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/sushiswap/sushiswap-sdk",
+  "repository": "https://github.com/jointswap/jointswap-sdk",
   "keywords": [
     "uniswap",
-    "sushiswap",
+    "jointswap",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",
