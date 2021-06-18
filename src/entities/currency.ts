@@ -21,26 +21,26 @@ export class Currency {
 
   public static readonly BNB: Currency = new Currency(18, 'BNB', 'Binance Coin')
 
-  public static readonly FTM: Currency = new Currency(18, 'FTM', 'Fantom')
+  // public static readonly FTM: Currency = new Currency(18, 'FTM', 'Fantom')
 
-  public static readonly MATIC: Currency = new Currency(18, 'MATIC', 'Matic')
+  // public static readonly MATIC: Currency = new Currency(18, 'MATIC', 'Matic')
 
-  public static readonly XDAI: Currency = new Currency(18, 'XDAI', 'xDai')
+  // public static readonly XDAI: Currency = new Currency(18, 'XDAI', 'xDai')
 
-  public static readonly GLMR: Currency = new Currency(18, 'GLMR', 'Glimmer')
+  // public static readonly GLMR: Currency = new Currency(18, 'GLMR', 'Glimmer')
 
-  public static readonly AVAX: Currency = new Currency(18, 'AVAX', 'Avalanche')
+  // public static readonly AVAX: Currency = new Currency(18, 'AVAX', 'Avalanche')
 
-  public static readonly HT: Currency = new Currency(18, 'HT', 'Heco Token')
+  // public static readonly HT: Currency = new Currency(18, 'HT', 'Heco Token')
 
-  public static readonly ONE: Currency = new Currency(18, 'ONE', 'Harmony')
+  // public static readonly ONE: Currency = new Currency(18, 'ONE', 'Harmony')
 
-  public static readonly OKT: Currency = new Currency(18, 'OKT', 'OKExChain')
+  // public static readonly OKT: Currency = new Currency(18, 'OKT', 'OKExChain')
 
   public static readonly NATIVE = {
     [ChainId.COINNET]: Currency.CN,
 
-    // [ChainId.MAINNET]: Currency.ETHER,
+    [ChainId.MAINNET]: Currency.ETHER,
     // [ChainId.ROPSTEN]: Currency.ETHER,
     // [ChainId.RINKEBY]: Currency.ETHER,
     // [ChainId.GÖRLI]: Currency.ETHER,
@@ -50,7 +50,7 @@ export class Currency {
     // [ChainId.MATIC]: Currency.MATIC,
     // [ChainId.MATIC_TESTNET]: Currency.MATIC,
     // [ChainId.XDAI]: Currency.XDAI,
-    // [ChainId.BSC]: Currency.BNB,
+    [ChainId.BSC]: Currency.BNB,
     // [ChainId.BSC_TESTNET]: Currency.BNB,
     // [ChainId.ARBITRUM]: Currency.ETHER,
     // [ChainId.ARBITRUM_TESTNET]: Currency.ETHER,
