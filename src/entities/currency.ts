@@ -125,29 +125,30 @@ export class Currency {
   }
 }
 
-const NATIVE = Currency.CN
+//const NATIVE = Currency.CN
 
-// const NATIVE_CURRENCY = {
-//   [ChainId.MAINNET]: Currency.ETHER,
-//   [ChainId.ROPSTEN]: Currency.ETHER,
-//   [ChainId.RINKEBY]: Currency.ETHER,
-//   [ChainId.GÖRLI]: Currency.ETHER,
-//   [ChainId.KOVAN]: Currency.ETHER,
-//   [ChainId.FANTOM]: Currency.FTM,
-//   [ChainId.FANTOM_TESTNET]: Currency.FTM,
-//   [ChainId.MATIC]: Currency.MATIC,
-//   [ChainId.MATIC_TESTNET]: Currency.MATIC,
-//   [ChainId.XDAI]: Currency.XDAI,
-//   [ChainId.BSC]: Currency.BNB,
-//   [ChainId.BSC_TESTNET]: Currency.BNB,
-//   [ChainId.ARBITRUM_TESTNET]: Currency.ETHER,
-//   [ChainId.MOONBEAM_TESTNET]: Currency.GLMR,
-//   [ChainId.AVALANCHE]: Currency.AVAX,
-//   [ChainId.AVALANCHE_TESTNET]: Currency.AVAX,
-//   [ChainId.HECO]: Currency.HT,
-//   [ChainId.HECO_TESTNET]: Currency.HT,
-//   [ChainId.HARMONY]: Currency.ONE,
-//   [ChainId.HARMONY_TESTNET]: Currency.ONE
-// }
+const NATIVE = {
+  [ChainId.MAINNET]: Currency.ETHER,
+  //   [ChainId.ROPSTEN]: Currency.ETHER,
+  //   [ChainId.RINKEBY]: Currency.ETHER,
+  //   [ChainId.GÖRLI]: Currency.ETHER,
+  //   [ChainId.KOVAN]: Currency.ETHER,
+  //   [ChainId.FANTOM]: Currency.FTM,
+  //   [ChainId.FANTOM_TESTNET]: Currency.FTM,
+  //   [ChainId.MATIC]: Currency.MATIC,
+  //   [ChainId.MATIC_TESTNET]: Currency.MATIC,
+  //   [ChainId.XDAI]: Currency.XDAI,
+  [ChainId.BSC]: Currency.BNB,
+  [ChainId.COINNET]: Currency.CN,
+  //   [ChainId.ARBITRUM_TESTNET]: Currency.ETHER,
+  //   [ChainId.MOONBEAM_TESTNET]: Currency.GLMR,
+  //   [ChainId.AVALANCHE]: Currency.AVAX,
+  //   [ChainId.AVALANCHE_TESTNET]: Currency.AVAX,
+  //   [ChainId.HECO]: Currency.HT,
+  //   [ChainId.HECO_TESTNET]: Currency.HT,
+  //   [ChainId.HARMONY]: Currency.ONE,
+  //   [ChainId.HARMONY_TESTNET]: Currency.ONE
+}
+
 
 export { NATIVE }
